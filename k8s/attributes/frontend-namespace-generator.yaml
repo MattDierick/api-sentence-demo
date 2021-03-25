@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: frontend
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
   - port: 80
     targetPort: 8080
@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: registry.gitlab.com/sentence-application/frontend/frontend-ns-8080:latest
+        image: registry.gitlab.com/sentence-application/frontend/frontend-wide:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

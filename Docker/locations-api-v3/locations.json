@@ -1,0 +1,28 @@
+{
+        "locations": [
+          {
+            "id": 2,
+            "name": "park",
+            "coordinates": [
+              -142.28261413,
+              53.28261413
+            ]
+          },
+          {
+            "id": 3,
+            "name": "mountain",
+            "coordinates": [
+              -110.28261413,
+              31.28261413
+            ]
+          },
+          {
+            "name": "valley",
+            "coordinates": [
+              -123.10664756,
+              49.28261413
+            ],
+            "id": 4
+          }
+        ]
+      }
